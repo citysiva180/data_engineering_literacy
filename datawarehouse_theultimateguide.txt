@@ -35,3 +35,8 @@ So if you don't have a data ware house
 - We have a lot of data but we don't know what to do with it? 
 - Our sales have been declining but we are unable to organize our data as they are in different formats and locations 
 - We don't have a centralized data house so our new york location gets the data refresh at least 1 day later than our San Francisco location 
+
+Ultimately a Data Warehouse is just another database, which is optimized for 
+analytical purpose. 
+
+- Which means its going be fast and consistent 
