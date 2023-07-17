@@ -1,0 +1,37 @@
+██████╗  █████╗ ████████╗ █████╗     ██╗    ██╗ █████╗ ██████╗ ███████╗██╗  ██╗ ██████╗ ██╗   ██╗███████╗██╗███╗   ██╗ ██████╗ 
+██╔══██╗██╔══██╗╚══██╔══╝██╔══██╗    ██║    ██║██╔══██╗██╔══██╗██╔════╝██║  ██║██╔═══██╗██║   ██║██╔════╝██║████╗  ██║██╔════╝ 
+██║  ██║███████║   ██║   ███████║    ██║ █╗ ██║███████║██████╔╝█████╗  ███████║██║   ██║██║   ██║███████╗██║██╔██╗ ██║██║  ███╗
+██║  ██║██╔══██║   ██║   ██╔══██║    ██║███╗██║██╔══██║██╔══██╗██╔══╝  ██╔══██║██║   ██║██║   ██║╚════██║██║██║╚██╗██║██║   ██║
+██████╔╝██║  ██║   ██║   ██║  ██║    ╚███╔███╔╝██║  ██║██║  ██║███████╗██║  ██║╚██████╔╝╚██████╔╝███████║██║██║ ╚████║╚██████╔╝
+╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝     ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚══════╝╚═╝╚═╝  ╚═══╝ ╚═════╝ 
+                                                                                                                               
+Introduction... 
+
+In this course we would be learning the following concepts 
+
+1. Data Warehousing Basics | Terminologies
+2. Data warehouse - Architecture | Components and its layers
+3. Dimensional Modelling | Design and Setting up Data ware houses
+4. Facts 
+5. Dimensions 
+6. Slowly Changing Dimensions 
+7. ETL and its concepts 
+8. Creating a Data Warehouse 
+9. ELT vs ETL 
+10. Using a Data Warehouse and How its suppose to be used - Connecting with Power BI
+11. Optimizing a Data Ware house 
+12. The Modern Data ware house 
+
+
+Why do we need data warehouses..?? 
+and Why do we use data warehouse...?
+
+Data ware housing could be used for 2 purposes 
+- Transactional data storage which is operational data keeping | OLTP - Online Transactional Processing 
+- Analytical Decision Making | OLAP - Online Analytical Processing 
+
+So if you don't have a data ware house 
+
+- We have a lot of data but we don't know what to do with it? 
+- Our sales have been declining but we are unable to organize our data as they are in different formats and locations 
+- We don't have a centralized data house so our new york location gets the data refresh at least 1 day later than our San Francisco location 
