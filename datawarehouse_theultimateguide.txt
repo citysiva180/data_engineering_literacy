@@ -40,3 +40,49 @@ Ultimately a Data Warehouse is just another database, which is optimized for
 analytical purpose. 
 
 - Which means its going be fast and consistent 
+
+Why do we need Data warehouses in our company? 
+
+- To manage the operation 
+- To use the data for making better decisions 
+- Used for reporting and Data Analysis  
+
+What are data ware houses: 
+
+- Centralized and consistent location for data 
+- Data must be accessible fast 
+- User-friendly 
+- Must load data consistently and repeatedly 
+
+This process of extracting and transforming is known as ETL 
+
+What is Business Intelligence? 
+
+Business Intelligence is the building of strategies with Technologies and infrastructure which 
+builds the Data Analysis 
+    - Data Gathering 
+    - Data Storing 
+    - Reporting 
+    - Data Visualization 
+    - Data mining 
+    - Predictive Analytics 
+
+All these could be accomplished if we have a great data ware house! 
+
+What is a Data Lake?
+
+Data Lake and Data Ware house are both centralized! 
+
+                            Data Lake                          Data Warehouse 
+
+Data                Data is stored as a Raw Data        Data is stored as Processed data 
+Technologies            Big Data                                Database 
+Structure              Unstructured                            Structured 
+Usage                 Not Defined Yet                    Specific is Ready to be used 
+Users                 Data Scientists                       Business users and IT 
+
+
+When to use what and how it is used...??? 
+
+- Data lake is used for unstructured data coming from different resources 
+- Data warehouse is used for curated data which is ready for reporting
