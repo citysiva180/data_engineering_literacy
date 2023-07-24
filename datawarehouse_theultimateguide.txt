@@ -189,7 +189,7 @@ Mart:
     - Optimized for Performance 
 
 Dimensional Modeling:
-
+---------------
 - Method for organizing Data 
 - In dimensional Models data could be fact or Dimension 
 - Fact - Measurements 
@@ -209,7 +209,9 @@ Goals of Dimensional Modeling
 - Oriented around performance and usability 
 
 
+---------------
 Facts Summary: 
+---------------
 
 Facts are typically numerical values, such as 
     - sales revenue, 
@@ -220,6 +222,7 @@ Facts are typically numerical values, such as
 that are relevant to the business.
 
 Factors Affecting facts 
+
 - Granularity 
 - Measures 
 - Numeric Values 
@@ -239,8 +242,9 @@ Factors Affecting facts
     - semi-additive facts can be summed up for some dimensions (e.g., time) but not for others, 
     and non-additive facts cannot be summed up at all.
 
+--------------------
 Dimensions Summary :
-
+--------------------
  Dimensions are used to slice, dice, and filter data, 
  allowing users to analyze the facts from different perspectives. 
  They bring structure to the data and help users answer specific 
@@ -262,5 +266,85 @@ Attributes of dimensional table
 - Role of Dimensions in Multidimensional models 
 - Dimensional modelling 
 
+-----------
+STAR SCHEMA 
+-----------
 
+Star Schema is a widely used data modeling technique in data warehousing. 
+It is designed to optimize the querying and analysis of data for business 
+intelligence and reporting purposes. In a Star Schema, data is organized 
+into a central fact table and multiple dimension tables, creating a star-like 
+structure. This design simplifies data retrieval and enables efficient querying 
+and aggregation of information.
 
+Key components of a Star Schema:
+
+Fact Table: 
+
+The fact table is the centerpiece of the Star Schema. 
+It contains the quantitative and numerical data (facts) 
+that represent business events or transactions. 
+Examples of facts could be sales revenue, quantity sold, profit, etc. 
+The fact table typically includes foreign keys that relate to the primary
+keys of dimension tables.
+
+Dimension Tables: 
+
+Dimension tables surround the fact table and provide descriptive
+attributes and context for the facts. Each dimension table represents 
+a specific category or perspective, such as Time, Product, Customer, 
+Location, etc. The dimension tables contain the descriptive attributes
+ related to each dimension, and they serve as entry points for data 
+ analysis along various dimensions.
+
+Foreign Keys: 
+
+The fact table contains foreign keys that link to the primary keys of
+dimension tables. These foreign keys establish the relationships between 
+the facts and dimensions, allowing data analysts to combine information 
+from different tables when querying the database.
+
+Advantages of Star Schema:
+
+Simplified Queries: 
+
+Star Schema simplifies querying because data is denormalized, 
+reducing the number of joins required to retrieve data. This leads 
+to faster query performance and better response times for analytical queries.
+
+Enhanced Performance: 
+
+The structure of Star Schema allows for efficient indexing and caching, 
+leading to improved query performance. As a result, data retrieval is faster, 
+making the data warehouse more responsive to user requests.
+
+Easy to Understand: 
+
+Star Schema's simple and intuitive design makes it easier for data analysts 
+and business users to understand and work with the data. Analyzing data 
+along different dimensions becomes straightforward, leading to more 
+effective decision-making.
+
+Flexibility: 
+
+The Star Schema design is flexible and adaptable to changing business 
+requirements. Adding or modifying dimensions and facts is relatively 
+straightforward, making it easier to accommodate new business needs.
+
+Wide Industry Adoption: 
+
+Star Schema is a well-established and widely adopted data modeling 
+technique in data warehousing. Many business intelligence tools and 
+technologies are optimized for working with Star Schema-based data warehouses.
+
+While Star Schema offers significant advantages, it may not be the most 
+suitable design for all scenarios. It is most effective when dealing with 
+simple and straightforward analytical queries. In more complex scenarios, 
+other data modeling techniques like Snowflake Schema or Galaxy Schema might 
+be considered to better meet specific requirements.
+
+Summary 
+
+- Most commonly used schema 
+- Simplest form 
+- Work best for specific needs 
