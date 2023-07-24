@@ -239,3 +239,28 @@ Factors Affecting facts
     - semi-additive facts can be summed up for some dimensions (e.g., time) but not for others, 
     and non-additive facts cannot be summed up at all.
 
+Dimensions Summary :
+
+ Dimensions are used to slice, dice, and filter data, 
+ allowing users to analyze the facts from different perspectives. 
+ They bring structure to the data and help users answer specific 
+ questions about the business.
+
+- Usually Non-Aggegatable 
+- Characters are descriptive in nature 
+- Dimensions are mostly stable and do not vary as fact tables 
+- Dimensions are present in dimensional tables 
+
+Attributes of dimensional table 
+
+- Descriptive Attributes 
+- Hierarchial Attributes 
+- Categorical Data 
+- Textual Data 
+- Slowly Changing Dimensions 
+- Dimension Tables 
+- Role of Dimensions in Multidimensional models 
+- Dimensional modelling 
+
+
+
