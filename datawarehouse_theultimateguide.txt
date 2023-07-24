@@ -167,3 +167,23 @@ ODS factors
 - Once operational data storage is completed, we could go for Analytical Decisions 
 Terminology is just a seasoning for Data warehousing. Ensure to adapt to context on what the functionality of 
 different components is. 
+
+Very important summary : 
+
+Staging Layer: 
+
+    - Landing Zone 
+    - Minimal Transformation 
+    - "Stage" the data in tables 
+
+Core: 
+
+    - Always there 
+    - Business Logic and Single Point of Truth 
+    - Can be sometimes the access Layer 
+
+Mart: 
+
+    - Access layer 
+    - Specific to one use-case 
+    - Optimized for Performance 
