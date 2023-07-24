@@ -159,3 +159,11 @@ Recommendation
 ODS Layer - Also known as Operational Data Storage 
 - Gets data from different sources 
 - Its used for operation decision making, not analytical decision making  
+
+
+ODS factors 
+- No Need for long history 
+- Needs to be very current or real-time 
+- Once operational data storage is completed, we could go for Analytical Decisions 
+Terminology is just a seasoning for Data warehousing. Ensure to adapt to context on what the functionality of 
+different components is. 
