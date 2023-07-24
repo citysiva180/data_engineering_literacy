@@ -208,3 +208,34 @@ Goals of Dimensional Modeling
 - Fast Data Retrieval 
 - Oriented around performance and usability 
 
+
+Facts Summary: 
+
+Facts are typically numerical values, such as 
+    - sales revenue, 
+    - quantity sold, 
+    - profit, 
+    - temperature, 
+    - or any other measurable metrics 
+that are relevant to the business.
+
+Factors Affecting facts 
+- Granularity 
+- Measures 
+- Numeric Values 
+- Aggregation
+- Time-Stamped 
+- Foreign-keys 
+- Fact Tables 
+- Multi-Dimensional Models 
+- Fact Types 
+    here are different types of facts in data warehousing, such as 
+    - additive, 
+    - semi-additive, 
+    - and non-additive facts, based on how they are aggregated across dimensions. 
+    
+    Additive facts can be 
+    - directly summed up, 
+    - semi-additive facts can be summed up for some dimensions (e.g., time) but not for others, 
+    and non-additive facts cannot be summed up at all.
+
