@@ -308,7 +308,7 @@ Advantages of Star Schema:
 
 Simplified Queries: 
 
-Star Schema simplifies querying because data is denormalized, 
+Star Schema simplifies querying because data is de-normalized, 
 reducing the number of joins required to retrieve data. This leads 
 to faster query performance and better response times for analytical queries.
 
@@ -348,3 +348,30 @@ Summary
 - Most commonly used schema 
 - Simplest form 
 - Work best for specific needs 
+
+Snowflake Schema: 
+
+A Snowflake Schema is a type of data modeling technique used in data warehousing, 
+and it is an extension of the Star Schema. Like the Star Schema, the Snowflake 
+Schema organizes data into a central fact table and multiple dimension tables. 
+However, in a Snowflake Schema, the dimension tables are normalized into multiple 
+related tables, creating a more complex and normalized structure.
+
+In contrast to the de-normalized dimension tables of the Star Schema, the dimension 
+tables in a Snowflake Schema are divided into sub-dimensions, resulting in a 
+snowflake-like appearance when represented graphically. The normalization reduces 
+data redundancy and can save storage space, but it also increases the complexity 
+of queries compared to the Star Schema.
+
+Notes from DWH 
+
+Snowflake advantage 
+- Less space 
+- No redundant data 
+- Solves write slows downs 
+
+Disadvantage
+
+- More complex 
+- More joins 
+- Less performance Data marts / Cubes 
