@@ -86,3 +86,76 @@ When to use what and how it is used...???
 
 - Data lake is used for unstructured data coming from different resources 
 - Data warehouse is used for curated data which is ready for reporting
+
+Architecture of a Dataware house 
+- Data warehouses consists of multiple layers 
+- Begining of ETL 
+    - Source -> Staging Layer 
+    - Staging -> Transformation -> Core Layer 
+    - Core Layer -> Analytics 
+
+Data Marts : Different sub data based on requirements given to core layer, so performance and 
+relevance is in synch 
+Cleansing Layer : Used for cleaning the data 
+
+The core layer is the data ware house layer. 
+
+STAGING LAYER : 
+
+Why do we use Staging Layer : Its to just copy the data and keep it in our environment, as working with the data on source is not possible 
+Isnt Staging redundant :  We are pulling data from operational systems. 
+
+- Short time on the source systems 
+- Quickly Extracting for use 
+- Moving the data safely to relational Database 
+- Starting transformations from there. 
+
+Important summary on Staging Layer 
+
+- Staging layer is the landing Zone extracted data 
+- Data in tables and on a separate database 
+- As little touching as possible 
+- We don't charge the source systems 
+- Temporary or Persistant Staging Layers
+
+In memory Databases : 
+
+its a high query performance databases 
+its good for analytics and high query volume 
+Its usually good for relational and non-relational ways 
+
+So how does this work? 
+
+    - Traditionally the databases are built with discs and then they are read into memory 
+    - In an in-memory database the data is present in memory itself. which means no latency in reading from database 
+    - They have columnar storage, parallel query plans and other techniques 
+
+Risks : 
+
+If the power goes away, the information is completely loss as well this happens if db is reset 
+We need to create snapshots to keep the data incase of loss so it could be loaded 
+It is also very costly. 
+
+
+Examples of In-Memory dbs 
+- SAP HANA 
+- M SQL Server In-Memory Tables 
+- Oracle In-Memory 
+- Amazon Memory DB 
+
+
+OLAP Cubes : 
+
+- Traditional DWH is based on RDBMS 
+- Data is organized non-relational in cube (MOLAP)
+- cube = Multidimensional dataset 
+- cubes have data in arrays  instead of tables 
+- works with many BI Solutions
+
+
+Recommendation 
+ - Built for a specific use-case ( as data marts in general)
+
+ODS Layer - Also known as Operational Data Storage 
+- Gets data from different sources 
+- Its used for operation decision making, not analytical decision making  
