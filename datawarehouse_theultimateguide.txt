@@ -187,3 +187,24 @@ Mart:
     - Access layer 
     - Specific to one use-case 
     - Optimized for Performance 
+
+Dimensional Modeling:
+
+- Method for organizing Data 
+- In dimensional Models data could be fact or Dimension 
+- Fact - Measurements 
+- Dimensions - Context like category or period 
+
+Dimensional Modeling Summary 
+
+- Unique Technique of Structuring Data 
+- Commonly used in DWH 
+- Optimized for faster data retrieval
+- Oriented around performance and usability 
+- Designed Reporting / OLAP 
+
+Goals of Dimensional Modeling 
+
+- Fast Data Retrieval 
+- Oriented around performance and usability 
+
